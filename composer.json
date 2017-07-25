@@ -1,0 +1,21 @@
+{
+  "name": "jmul/EUtil",
+  "description": "Extended Utility functions",
+  "type": "library",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Joost Mul",
+      "email": "joost@jmul.net",
+      "homepage": "http://jmul.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoloader": {
+    "psr-4": {
+      "EUtil": "src"
+    }
+  }
+}
