@@ -1,6 +1,6 @@
 <?php
 
-namespace EUtil;
+namespace EUtil\Helper;
 
 /**
  * Class Date

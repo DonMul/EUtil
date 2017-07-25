@@ -142,7 +142,7 @@ final class MySQL
     public function fetchCol($query, $colName, $params = [], $types = '')
     {
         $result = $this->fetchOne($query, $params, $types);
-        return (new \EUtil\Collection())->getFromArrayByKeys($result, [$colName]);
+        return (new \EUtil\Helper\Collection())->getFromArrayByKeys($result, [$colName]);
     }
 
     /**
