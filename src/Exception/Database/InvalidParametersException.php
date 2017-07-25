@@ -1,6 +1,6 @@
 <?php
 
-namespace Exception\Database;
+namespace EUtil\Exception\Database;
 
 use Exception;
 

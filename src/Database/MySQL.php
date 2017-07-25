@@ -2,9 +2,9 @@
 
 namespace EUtil\Database;
 
-use Exception\Database\CouldNotConnectException;
-use Exception\Database\GeneralException;
-use Exception\Database\InvalidParametersException;
+use EUtil\Exception\Database\CouldNotConnectException;
+use EUtil\Exception\Database\GeneralException;
+use EUtil\Exception\Database\InvalidParametersException;
 
 /**
  * Class Database
