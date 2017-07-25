@@ -1,5 +1,7 @@
 <?php
 
+namespace EUtil;
+
 /**
  * Class Collection
  * @author Joost Mul <eutil@jmul.net>
